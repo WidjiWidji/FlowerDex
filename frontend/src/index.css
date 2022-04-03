@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*.register__textBox {
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    background: #3b3b47;
+    padding: 5px; 
+    width: 250px;
+    height: 35px;
+    margin: 4px;
+} */
+
+@layer base{
+    html {
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+.font-link{
+  font-family: 'Rubik';
+}
+
+.titleWhite {
+    @apply text-white font-extrabold my-1.5;
+}
+
+.input {
+
+    @apply bg-[#596f7e] text-white font-mono px-4 py-2 my-1 w-64 rounded-md;
+}
+
+.btnOrange {
+    @apply bg-[#F46500] text-white font-mono font-extrabold px-4 py-1 w-64 rounded-md;
+}
+
+.btnOrange:hover {
+    @apply bg-[#E37C22];
+}
+
+.btnGreen {
+  @apply bg-[#4D7701] text-white font-mono font-extrabold px-4 py-1 w-64 rounded-md;
+}
+
+.btnGreen:hover {
+  @apply bg-[#508a21];
+}
+
+.nobtn {
+    @apply text-white font-bold text-left;
+}
+
+.nobtn:hover {
+    @apply text-gray-400;
+}
+
+.navigation {
+
+  @apply text-white font-extrabold flex flex-row static
+  
+}
+
+/* .box {
+
+  @apply border border-[#596f7e]
+} */
+
+.gridbtn {
+  
+  @apply bg-[#596f7e] mx-8
+
+}
+
+.gridbtn:hover {
+
+  @apply animate-bounce
+}
