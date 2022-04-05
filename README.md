@@ -1,23 +1,28 @@
 # FlowerDex
 
-Clone Repo
+https://devpost.com/software/flowerdex
 
-In backend folder create virtual environment.
+# How to Use
 
+1. Clone FlowerDex Respository
+
+2. In backend folder create virtual environment.
+```
 python -m venv venv
-
-Install required modules
-
+```
+3. Install required modules
+```
 pip install requiremnets.txt
-
-Run local server at desired port
-
+```
+4. Run local server at desired port
+```
 uvicorn main:app --reload --port [PORT]
-
-In frontend folder install dependencies
-
+```
+5. In frontend folder install dependencies
+```
 npm install
-
-Start local server
-
+```
+6. Start local server
+```
 npm start
+```
