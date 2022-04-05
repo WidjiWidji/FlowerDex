@@ -12,7 +12,7 @@ python -m venv venv
 ```
 3. Install required modules
 ```
-pip install requiremnets.txt
+pip install requirements.txt
 ```
 4. Run local server at desired port
 ```
