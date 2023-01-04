@@ -1,5 +1,6 @@
 # FlowerDex
 
+Check out project here!
 https://devpost.com/software/flowerdex
 
 # How to Use
